@@ -36,3 +36,19 @@ h1{
     border: solid darkcyan 1px;
     border-radius: 5px;
 }
+#universal{
+    color: lightgoldenrodyellow;
+}
+
+h2.selector,
+h2#universal {
+    background-color: darkcyan;
+    padding: 1%;
+    border-radius: 5%;
+}
+
+span {
+    font-weight: 900;
+    background-color: black;
+    color: white;
+}
