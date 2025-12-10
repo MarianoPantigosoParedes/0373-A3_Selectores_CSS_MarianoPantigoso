@@ -52,3 +52,23 @@ span {
     background-color: black;
     color: white;
 }
+
+li > a {
+    text-decoration: none;
+}
+
+h3 {
+    background-color: rgba(0, 139, 139, 0.529);
+    padding: 0.5px;
+    border-radius: 5px;
+}
+
+#gallery div {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
