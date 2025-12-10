@@ -15,14 +15,18 @@
     <title>CSS Selectors</title>
 </head>
 
-<body>
-    <h1>CSS Selectors</h1>
+<body> <!-- REGLA 2: Apartir de aqui se implementa el estilo de relleno y margen en todo el body termina en la etiqueta cierre de body-->
+<!-- REGLA 1: Aqui se empieza a implementar el estilo del body-->
+<!-- REGLA 3: Se implementa solo en la etiqueta h1-->
+    <h1>CSS Selectors</h1> 
     <p>A CSS selector selects the HTML element(s) you want to style.</p>
+<!--Regla 5: Solo la implementamos aqui ya que es la unica que lleva selectors-->
     <div class="selectors">
         <h2>CSS Selectors</h2>
         <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
         <p>We can divide CSS selectors into five categories:</p>
         <ul>
+<!-- Regla 9. Los elementos `a` tendrán `text-decoration: none` -->
             <li>Simple selectors (select elements based on name, id, class)</li>
             <li><a href="https://www.w3schools.com/css/css_combinators.asp">Combinator selectors (select elements based on a specific relationship between them)</a></li>
             <li><a href="https://www.w3schools.com/css/css_pseudo_classes.asp">Pseudo-class selectors (select elements based on a certain state)</a>
@@ -32,18 +36,30 @@
         </ul>
     </div>
     <hr>
+<!--Regla 4 se implementara en todos los elementos con clase `selector`-->
+<!-- Regla 7. Los elementos `h2` con clase `selector` tendrán color de fondo `darkcyan`, relleno de `1%` y esquinas redondeadas con valor de `5px`-->
+<!-- Regla 8. Los elementos `span` tendrán `font-weight: 900;` color de fondo negro y color de texto blanco -->
     <h2 class="selector">The CSS <span>element</span> Selector</h2>
     <p>The element selector selects HTML elements based on the element <span>name</span> (body, p, h1, h5, a, div, etc.).</p>
     <hr>
+<!--Regla 4 se implementara en todos los elementos con clase `selector`-->
+<!-- Regla 7. Los elementos `h2` con clase `selector` tendrán color de fondo `darkcyan`, relleno de `1%` y esquinas redondeadas con valor de `5px`-->
+<!-- Regla 8. Los elementos `span` tendrán `font-weight: 900;` color de fondo negro y color de texto blanco -->
     <h2 class="selector">The CSS <span>id</span> Selector</h2>
     <p>The id selector uses the id attribute of an HTML element to select a specific element.</p>
     <p>The id of an element is unique within a page, so the id selector is used to select one unique element!</p>
     <p>To select an element with a specific id, write a hash <span>(#)</span> character, followed by the id of the element.</p>
     <hr>
+<!--Regla 4 se implementara en todos los elementos con clase `selector`-->
+<!-- Regla 7. Los elementos `h2` con clase `selector` tendrán color de fondo `darkcyan`, relleno de `1%` y esquinas redondeadas con valor de `5px`-->
+<!-- Regla 8. Los elementos `span` tendrán `font-weight: 900;` color de fondo negro y color de texto blanco -->
     <h2 class="selector">The CSS <span>class</span> Selector</h2>
     <p>The class selector selects HTML elements with a specific class attribute.</p>
     <p>To select elements with a specific class, write a period <span>(.)</span> character, followed by the class name.</p>
     <hr>
+<!-- Regla 6. Solo la implementamos aqui ya que es la unica que lleva el id universal -->
+<!-- Regla 7. Los elementos `h2` con identificador (id) `universal` tendrán color de fondo `darkcyan`, relleno de `1%` y esquinas redondeadas con valor de `5px`-->
+<!-- Regla 8. Los elementos `span` tendrán `font-weight: 900;` color de fondo negro y color de texto blanco -->
 
     <h2 id="universal">The CSS <span>Universal</span> Selector</h2>
     <p>The universal selector <span>(*)</span> selects all HTML elements on the page.</p>
@@ -52,18 +68,21 @@
         <p>Use our <a href="https://www.w3schools.com/cssref/trysel.asp" target="_blank">CSS Selector Tester</a> to demonstrate the different selectors. </p>
     </div>
     <hr>
-
+<!-- Regla 11. Los elementos `div` que sean descendientes de un elemento con id "gallery" tendrán un ancho `width` de `100%`-->
     <div id="gallery">
         <div>
+            <!-- Regla 10. Los elementos `h3` tendrán color de fondo `background-color: rgba(0, 139, 139, 0.529);`, relleno de `0.5px` y esquinas redondeadas con valor de `5px`-->
             <h3>CSS Syntax</h3>
+            <!-- Regla 12. Los elementos `img` tendrán un ancho `width` de `100%`, un `border: solid darkcyan 1px;` y esquinas redondeadas con valor de `5px`-->
             <img src="./imagenes/reglacss.png" alt="">
         </div>
         <div>
+            <!-- Regla 10. Los elementos `h3` tendrán color de fondo `background-color: rgba(0, 139, 139, 0.529);`, relleno de `0.5px` y esquinas redondeadas con valor de `5px`-->
             <h3>All CSS Simple Selectors</h3>
+            <!-- Regla 12. Los elementos `img` tendrán un ancho `width` de `100%`, un `border: solid darkcyan 1px;` y esquinas redondeadas con valor de `5px`-->
             <img src="./imagenes/selectorcss.png" alt="">
         </div>
     </div>
-
+<!-- Aqui terminaria el estilo de body, todo lo que esta dentro llevara el mismo estilo de letra-->
 </body>
-
 </html>
