@@ -1,3 +1,5 @@
+/* Regla 1: selector universal */
+
 * {
     font-family: "Bitcount Prop Double Ink", system-ui;
     font-optical-sizing: auto;
@@ -15,30 +17,37 @@
     "YPN1" 0,
     "YPN2" 0;
 }
+/* Regla 2: body */
 
 body {
     margin: 0%;
     padding: 20%;
 }
+/* Regla 3: h1 */
 
 h1{
     text-decoration: underline;
     color: darkcyan;
     text-align: center;
 }
+/* Regla 4: clase .selector */
 
 .selector {
     color: lightcyan;
 }
+/* Regla 5: clase .selectors */
 
 .selectors{
     padding: 5%;
     border: solid darkcyan 1px;
     border-radius: 5px;
 }
+/* Regla 6: id universal */
+
 #universal{
     color: lightgoldenrodyellow;
 }
+/* Regla 7: h2.selector y h2#universal */
 
 h2.selector,
 h2#universal {
@@ -46,26 +55,31 @@ h2#universal {
     padding: 1%;
     border-radius: 5%;
 }
+/* Regla 8: span */
 
 span {
     font-weight: 900;
     background-color: black;
     color: white;
 }
+/* Regla 9: a hijos directos de li */
 
 li > a {
     text-decoration: none;
 }
+/* Regla 10: h3 */
 
 h3 {
     background-color: rgba(0, 139, 139, 0.529);
     padding: 0.5px;
     border-radius: 5px;
 }
+/* Regla 11: div descendientes de #gallery */
 
 #gallery div {
     width: 100%;
 }
+/* Regla 12: img */
 
 img {
     width: 100%;
