@@ -1,7 +1,7 @@
-body {
+* {
     font-family: "Bitcount Prop Double Ink", system-ui;
     font-optical-sizing: auto;
-    font-weight: 200 px;
+    font-weight: 20 ;
     font-style: normal;
     font-variation-settings:
     "slnt" 0,
@@ -14,5 +14,10 @@ body {
     "XPN2" 0,
     "YPN1" 0,
     "YPN2" 0;
+}
+
+body {
+    margin: 0%;
+    padding: 20%;
 }
 
