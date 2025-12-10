@@ -21,3 +21,8 @@ body {
     padding: 20%;
 }
 
+h1{
+    text-decoration: underline;
+    color: darkcyan;
+    text-align: center;
+}
